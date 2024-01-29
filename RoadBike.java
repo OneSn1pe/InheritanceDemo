@@ -1,5 +1,5 @@
 public class RoadBike extends Vehicle{
-    private String gears;
+    private int gears;
     private String brakes;
 
 
@@ -10,10 +10,10 @@ public class RoadBike extends Vehicle{
         this.gears = gears;
         this.brakes = brakes;
     }
-    }
+    
    
  
-    public String getGears() {
+    public int getGears() {
         return gears;
     }
     public String getBrakes() {

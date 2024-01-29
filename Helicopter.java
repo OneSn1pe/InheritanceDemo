@@ -10,7 +10,7 @@ public class Helicopter extends Vehicle{
         this.altitude = altitude;
         this.blades = blades;
     }
-    }
+    
    
  
     public int getBlades() {

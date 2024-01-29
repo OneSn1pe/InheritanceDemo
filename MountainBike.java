@@ -1,6 +1,6 @@
 public class MountainBike extends Vehicle {
     private String shocks;
-    private String gears;
+    private int gears;
     private String brakes;
 
 
@@ -12,18 +12,18 @@ public class MountainBike extends Vehicle {
         this.gears = gears;
         this.brakes = brakes;
     }
-    }
+    
    
     public String getShocks() {
         return shocks;
     }
-    public String getGears() {
+    public int getGears() {
         return gears;
     }
     public String getBrakes() {
         return brakes;
     }
     public String getType() {
-        return type;
+        return "mountain-bike";
     }
 }
